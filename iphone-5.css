@@ -136,6 +136,7 @@ ul.style3
 	overflow: hidden;
 	list-style: none;
 	color: #6c6c6c
+	width:436px;
 }
 
 ul.style3 li
@@ -147,6 +148,7 @@ ul.style3 li
 ul.style3 p
 {
 	margin: 0;
+	width:380px;
 }
 
 ul.style3 a
@@ -154,6 +156,7 @@ ul.style3 a
 	display: block;
 	text-decoration: none;
 	color: #2D2D2D;
+	
 }
 
 ul.style3 a:hover
@@ -365,7 +368,7 @@ ul.style4 .first
 #header {
 	overflow: hidden;
 	padding-top: 8em;
-	background:red;
+
 	position: relative;
 	width:480px;
 }
@@ -376,7 +379,7 @@ ul.style4 .first
 	height: 100px;
 	margin: 0px auto 20px auto;
 	width:480;
-	background:pink;
+
 }
 
 #logo h1, #logo p {
@@ -391,7 +394,7 @@ ul.style4 .first
 
 #logo h1 a {
 	font-size: 2em;
-	color: yellow;
+
 }
 
 #logo h1 span {
@@ -404,7 +407,7 @@ ul.style4 .first
 	font-size: 1.3em;
 	font-family: 'Raleway', sans-serif;
 	color: #595959;
-	background:blue;
+
 }
 
 #logo p a {
@@ -476,11 +479,12 @@ position: relative;
 
 #page {
 	overflow: hidden;
-	height: 40em;
+	height: 55em;
 	padding-top: 4em;
 	padding-left: 50px;
-	background: url(corgi1.jpg) no-repeat right bottom;
+	background: url(me-phone1.jpg) no-repeat center bottom;
 	color: #6A6A6A;
+	
 }
 
 #page .content
@@ -595,8 +599,8 @@ position: relative;
 #box2
 {
 	float: left;
-	width: 436px;
-	padding: 0px 20px;
+	width: 420px;
+	padding: 20px 20px;
 }
 
 #box3
@@ -611,7 +615,7 @@ position: relative;
 	float: center;
 	width: 480px;
 	padding: 20px 20px;
-    background:blue;
+ 
 }
 
 /*Image tiles*/
@@ -652,7 +656,7 @@ cursor:pointer; /*changes the cursor to a hand*/
 /***We bring the large image back onto the page by reducing left from -9999px (set in step 2) to figures below***/ 
 ul.enlarge li:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/ 
 top: -150px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
-left: -30px; /*distance from the left of the thumbnail to the left of the popup image*/
+left: -110px; /*distance from the left of the thumbnail to the left of the popup image*/
 }
 /***To make it look neater we used :nth-child to set a different left distance for each image***/ 
 ul.enlarge li:hover:nth-child(2) span{

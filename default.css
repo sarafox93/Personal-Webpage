@@ -359,7 +359,6 @@ ul.style4 .first
 #header {
 	overflow: hidden;
 	padding-top: 8em;
-	background:yellow;
 	position: relative;
 }
 
@@ -369,7 +368,7 @@ ul.style4 .first
 	height: 100px;
 	margin: 0px auto 20px auto;
 
-	background:pink;
+	
 }
 
 #logo h1, #logo p {
@@ -397,7 +396,7 @@ ul.style4 .first
 	font-size: 1.3em;
 	font-family: 'Raleway', sans-serif;
 	color: #595959;
-	background:blue;
+	
 }
 
 #logo p a {
@@ -472,7 +471,7 @@ position: relative;
 	height: 40em;
 	padding-top: 4em;
 	padding-left: 50px;
-	background: url(flower.jpg) no-repeat right bottom;
+	background: url(me-full.jpg) no-repeat right bottom;
 	color: #6A6A6A;
 }
 
@@ -494,7 +493,7 @@ position: relative;
 	text-transform: uppercase;
 	font-size: 3em;
 	font-weight: 600;
-	color: yellow;
+
 }
 
 #page span
@@ -604,8 +603,7 @@ position: relative;
 	float: left;
 	width: 1060px;
 	padding: 0px 20px;
-    background:blue;
-}
+    }
 
 /*Image tiles*/
 

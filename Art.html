@@ -7,10 +7,13 @@
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Raleway:400,700,200,300,900,800" rel="stylesheet" type="text/css">
-<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="default.css" rel="stylesheet" type="text/css" media="screen and (min-width:481px)"  /> <!--media="all"-->
+<link rel="stylesheet" href="iphone-5.css" type="text/css" media="only screen and (max-width:480px)" />
 <!--[if IE 6]>
 <link href="default_ie6.css" rel="stylesheet" type="text/css" />
 <![endif]-->
+
+
 
 </head>
 <body>
@@ -80,8 +83,8 @@
                 <div class="titleBox">Butterfly</div>
             </div>
            </div>
-        </div>
-       </div>-->
+        </div>-->
+      
 
     
     <ul class="enlarge"> <!--We give the list a class so that we can style it seperately from other unordered lists-->
@@ -144,17 +147,20 @@
 
 </ul>
 </div>
+</div>
     
    <div id="footer">
 	<p>&copy; Design by Sara</a>. Photos by unknown</a>.</p>
 </div>
+</div>
+
 
 <script>
-$("a[href='button-style button-style-alt']").click(function() {
-  $("html, body").animate({ scrollTop: $(document).height() }, "slow");
-  return false;
-});
+function scrollWin() {
+    window.scrollTo(0, 200);
+}
 </script>
+
 </body>
 </html>
 
